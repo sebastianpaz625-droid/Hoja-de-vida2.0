@@ -1,156 +1,398 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hoja de vida</title>
+    <title>Hoja de vida - Sebastian Paz Ordoñez</title>
 </head>
+
 <body>
+
+    <!-- ================= ENCABEZADO ================= -->
+    <header id="presentacion" class="seccion">
+        <h1>Sebastian Paz Ordoñez</h1>
+        <h2>Ingeniero de Sistemas</h2>
+
+        <img src="img/fotosebastianpaz.jpeg" alt="Fotografía de Sebastian Paz Ordoñez" width="200">
+
+        <hr>
+    </header>
+
+
+    <!-- ================= PERFIL PROFESIONAL ================= -->
+   <header id="Perfil profesional" class="seccion">
+        <h2>Perfil profesional</h2>
+
+        <p>
+            Ingeniero de Sistemas
+        </p>
+
+        <p>
+            Interesado en el desarrollo de software, tecnologías web,
+            arquitectura de aplicaciones y ciberseguridad.
+        </p>
+        <hr>
+        </header>
+        <!-- ================= INFORMACION PERSONAL ================= -->
+        <section id="información Personal" class="seccion">
+
+            <h2>información personal</h2>
+
+            <p>
+                correo:
+                <a href="mailto:sebatianpaz625@gmail.com">sebatianpaz625@gmail.com</a>
+            </p>
+
+            <p>
+                Teléfono:
+                <a href="tel: +573161700958"> 3161700958</a>
+            </p>
+
+            <p>
+                Pasto, Nariño, Colombia
+            </p>
+              </section>
+            <section class="seccion" id="contacto">
+                
+            <h3>Enviame un mensaje</h3>
+            <form action="">
+                <label for="Nombre"> Nombre: </label>
+                <input type="text" id="Nombre" name="Nombre" placeholder="Escribe tu Nombre" required>
+
+                <label for="correo"> correo: </label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <label for="telefono"> telefono: </label>
+                <input type="tel" id="telefono" name="telefono" placeholder="300 000 0000">
+
+                <label for="mensaje"> Enviame un mensaje: </label>
+                <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"required></textarea>
+
+                <button type="submit"> Enviar</button>
+                
+            </form>
+        </section>
+        <hr>
+
+        <!-- ================= REDES SOCIALES ================= -->
+        <section id="redes" class="seccion">
+
+            <h2>Mis redes sociales</h2>
+
+            <ol>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        Instagram
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                        Facebook
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/?app=desktop&hl=es" target="_blank">
+                        YouTube
+                    </a>
+                </li>
+            </ol>
    
+        </section>
+             <hr>
+        <section id="redes profesionales" class="seccion">
+
+            <h2>Mis redes profesionales</h2>
+           
+        <ol>
+         <li>
+                    <a href="https://co.linkedin.com/" target="_blank">
+                       linkedin
+                    </a>
+                </li>
+        
+         <li>
+            <a href="https://github.com/" target="_blank">
+                GitHub
+            </a>
+                 </li> 
+                 </ol>  
+                  </section>
+                        <hr>
+
+
+                            <!-- ================= PASATIEMPOS ================= -->
+                            <section id="pasatiempos" class="seccion">
+
+                                <h2>
+                                    <a href="pasatiempos.html">
+                                        Dale click aquí para conocer mis pasatiempos favoritos
+                                    </a>
+                                </h2>
+
+                            </section>
+
+
+                            <hr>
+
+
+                            <!-- ================= EDUCACIÓN ================= -->
+                            <section id="educacion" class="seccion">
+
+                                <h2>Educación</h2>
+
+                                <article class="educacion-item">
+                                    <h3>Bachillerato Académico</h3>
+
+                                    <p>
+                                        <strong>Institución:</strong>
+                                        Colegio Nuestra Señora del Carmen Pasto
+                                    </p>
+
+                                    <p>
+                                        <strong>Año:</strong> 2022
+                                    </p>
+
+                                    <p>
+                                        Formación académica con énfasis en el desarrollo de
+                                        habilidades comunicativas, tecnológicas y de trabajo en equipo.
+                                    </p>
+                                </article>
+
+
+                                <article class="educacion-item">
+                                    <h3>Formación en Ingeniería de Sistemas</h3>
+
+                                    <p>
+                                        <strong>Institución:</strong>
+                                        Universidad CESMAG
+                                    </p>
+
+                                    <p>
+                                        <strong>Estado:</strong> En curso
+                                    </p>
+
+                                    <p>
+                                        Aprendizaje de HTML, CSS, JavaScript y herramientas para
+                                        el desarrollo de páginas web.
+                                    </p>
+                                </article>
+
+                            </section>
+
+
+                            <hr>
+
+
+                            <!-- ================= TABLA DE FORMACIÓN ================= -->
+                            <section id="tabla-educacion" class="seccion">
+
+                                <h2>Resumen de formación académica</h2>
+
+                                <table border="1">
+
+                                    <thead>
+                                        <tr>
+                                            <th>Formación</th>
+                                            <th>Institución</th>
+                                            <th>Año / Estado</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>Bachillerato Académico</td>
+                                            <td>Colegio Nuestra Señora del Carmen Pasto</td>
+                                            <td>2022</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Ingeniería de Sistemas</td>
+                                            <td>Universidad CESMAG</td>
+                                            <td>En curso</td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+
+                            </section>
+
+
+                            <hr>
+
+
+                            <!-- ================= EXPERIENCIA ================= -->
+                            <section id="experiencia" class="seccion">
+
+                                <h2>Experiencia</h2>
+
+                                <article class="experiencia-item">
+
+                                    <h3>Estudiante / Ingeniería de Sistemas</h3>
+
+                                    <p>
+                                        <strong>Universidad:</strong>
+                                        Universidad CESMAG
+                                    </p>
+
+                                    <p>
+                                        <strong>Periodo:</strong>
+                                        2026 - Actualidad
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            Creación y diseño de páginas web utilizando HTML y CSS.
+                                        </li>
+
+                                        <li>
+                                            Organización de contenido y estructura de sitios web.
+                                        </li>
+
+                                        <li>
+                                            Uso de Git y GitHub para almacenar y administrar proyectos.
+                                        </li>
+
+                                        <li>
+                                            Trabajo en equipo y solución de problemas.
+                                        </li>
+                                    </ul>
+
+                                </article>
+
+
+                                <article class="experiencia-item">
+
+                                    <h3>Proyecto Académico</h3>
+
+                                    <p>
+                                        <strong>Área:</strong>
+                                        Programación avanzada
+                                    </p>
+
+                                    <p>
+                                        <strong>Periodo:</strong>
+                                        2026
+                                    </p>
+
+                                    <ul>
+                                        <li>
+                                            Desarrollo de una hoja de vida utilizando HTML.
+                                        </li>
+
+                                        <li>
+                                            Aplicación de buenas prácticas de organización del código.
+                                        </li>
+
+                                        <li>
+                                            Publicación y administración del proyecto mediante GitHub.
+                                        </li>
+                                    </ul>
+
+                                </article>
+
+                            </section>
+
+
+                            <hr>
+
+
+                            <!-- ================= HABILIDADES ================= -->
+                            <section id="habilidades" class="seccion">
+
+                                <h2>Habilidades</h2>
+
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>Git y GitHub</li>
+                                    <li>Microsoft Visual Studio Code</li>
+                                    <li>Trabajo en equipo</li>
+                                    <li>Comunicación</li>
+                                    <li>Responsabilidad</li>
+                                    <li>Resolución de problemas</li>
+                                    <li>Aprendizaje rápido</li>
+                                </ul>
+
+                            </section>
+
+
+                            <hr>
+
+
+                            <!-- ================= PROYECTOS ================= -->
+                            <section id="proyectos" class="seccion">
+
+                                <h2>Proyectos</h2>
+
+                                <article class="proyecto">
+
+                                    <h3>Hoja de Vida Personal</h3>
+
+                                    <p>
+                                        Página web desarrollada en HTML y CSS para presentar
+                                        información personal, educación, experiencia, habilidades
+                                        y proyectos profesionales.
+                                    </p>
+
+                                    <p>
+                                        <strong>Tecnologías:</strong> HTML5
+                                    </p>
+
+                                </article>
+
+
+                                <article class="proyecto">
+
+                                    <h3>Portafolio Web</h3>
+
+                                    <p>
+                                        Proyecto enfocado en mostrar mis conocimientos y trabajos
+                                        realizados durante la clase y mi proceso de formación
+                                        en desarrollo web.
+                                    </p>
+
+                                    <p>
+                                        <strong>Tecnologías:</strong> HTML5
+                                    </p>
+
+                                </article>
+
+
+                                <article class="proyecto">
+
+                                    <h3>Proyecto Académico</h3>
+
+                                    <p>
+                                        Desarrollo de una página web como ejercicio académico,
+                                        aplicando estructura HTML, diseño visual y organización
+                                        de contenidos.
+                                    </p>
+
+                                    <p>
+                                        <strong>Tecnologías:</strong> HTML, CSS y GitHub
+                                    </p>
+
+                                </article>
+
+                            </section>
+
+    </main>
+
+
+    <!-- ================= PIE DE PÁGINA ================= -->
+    <footer id="pie-pagina" class="pie-pagina">
+
+        <hr>
+
+        <p>
+            Sebastian Paz Ordoñez - Hoja de vida
+        </p>
+
+    </footer>
+
 </body>
-<header>
-  <!--encabezado principal--->
-   <header> 
- <h1>Sebastian paz ordoñez</h1>
- <h2>Ingeniero de sistemas</h2>
- <img src="img/fotografiaSebastianpaz.jpg" alt="Fotografia de Sebastian paz ordoñez"
- width= "200">
-   <hr>
-    <!-- Perfil profesional -->
-    <h2>Perfil profesional</h2>
-    <p>
-      Ingeniero de Sistemas
-    </p>
-    <p>
-      Interesado en el desollo de software, tecnologías web,
-      arquitectura de aplicaciones y ciberseguridad.
-    </p>
- <p> sebatianpaz625@gmail.com</p>
- <p>Telefono:3161700958</p>
-<p>Pasto Nariño,Colombia</p>
-    <!-- Redes sociales -->
-  
-    <hr>
-    <h2>Mis redes sociales</h2>
-    <a href="https://www.instagram.com/"> Instagram </a>
-<ol>
-    <li>
-        <a href="https://www.facebook.com/?locale=es_LA"> Facebook </a>
-    </li>
-    <li>
-        <a href="https://www.youtube.com/?app=desktop&hl=es"> YouTube </a>
-    </li>
-</ol>
-    <hr>
-    <h2>
-      <a href="pasatiempos.html">Dale click aqui para conocer mis pasatiempos favoritos</a>
-    </h2>
-</body>
+
 </html>
-
-<!-- ================= EDUCACIÓN ================= -->
-<section id="educacion">
-    <h2>Educación</h2>
-
-    <div class="educacion-item">
-        <h3>Bachillerato Académico</h3>
-        <p><strong>Institución:</strong> Colegio Nuestra señora del carmen Pasto</p>
-        <p><strong>Año:</strong> 2022</p>
-        <p>Formación académica con énfasis en el desarrollo de habilidades
-        comunicativas, tecnológicas y de trabajo en equipo.</p>
-    </div>
-
-    <div class="educacion-item">
-        <h3>Formación en Ingenieria de sistemas</h3>
-        <p><strong>Institución:</strong> Universidad CESMAG</p>
-        <p><strong>Estado:</strong> En curso</p>
-        <p>Aprendizaje de HTML, CSS, JavaScript y herramientas para
-        el desarrollo de páginas web.</p>
-    </div>
-</section>
-
-
-<!-- ================= EXPERIENCIA ================= -->
-<section id="experiencia">
-    <h2>Experiencia</h2>
-
-    <div class="experiencia-item">
-        <h3>Estudiante / Ingenieria de Sistemas</h3>
-        <p><strong>Universidad:</strong> Universidad CESMAG</p>
-        <p><strong>Periodo:</strong> 2026 - Actualidad</p>
-
-        <ul>
-            <li>Creación y diseño de páginas web utilizando HTML y CSS.</li>
-            <li>Organización de contenido y estructura de sitios web.</li>
-            <li>Uso de Git y GitHub para almacenar y administrar proyectos.</li>
-            <li>Trabajo en equipo y solución de problemas.</li>
-        </ul>
-    </div>
-
-    <div class="experiencia-item">
-        <h3>Proyecto Académico</h3>
-        <p><strong>Área:</strong> programacion avanzada</p>
-        <p><strong>Periodo:</strong> 2026</p>
-
-        <ul>
-            <li>Desarrollo de una hoja de vida utilizando HTML.</li>
-            <li>Aplicación de buenas prácticas de organización del código.</li>
-            <li>Publicación y administración del proyecto mediante GitHub.</li>
-        </ul>
-    </div>
-</section>
-
-
-<!-- ================= HABILIDADES ================= -->
-<section id="habilidades">
-    <h2>Habilidades</h2>
-
-    <ul>
-        <li>HTML5</li>
-        <li>Git y GitHub</li>
-        <li>Microsoft Visual Studio Code</li>
-        <li>Trabajo en equipo</li>
-        <li>Comunicación</li>
-        <li>Responsabilidad</li>
-        <li>Resolución de problemas</li>
-        <li>Aprendizaje rápido</li>
-    </ul>
-</section>
-
-
-<!-- ================= PROYECTOS ================= -->
-<section id="proyectos">
-    <h2>Proyectos</h2>
-
-    <div class="proyecto">
-        <h3>Hoja de Vida Personal</h3>
-        <p>
-            Página web desarrollada en HTML y CSS para presentar
-            información personal, educación, experiencia, habilidades
-            y proyectos profesionales.
-        </p>
-        <p><strong>Tecnologías:</strong> HTML5 </p>
-    </div>
-
-    <div class="proyecto">
-        <h3>Portafolio Web</h3>
-        <p>
-            Proyecto enfocado en mostrar mis conocimientos y trabajos
-            realizados durante la clase y mi proceso de formación en desarrollo web.
-        </p>
-        <p><strong>Tecnologías:</strong> HTML5</p>
-    </div>
-
-    <div class="proyecto">
-        <h3>Proyecto Académico</h3>
-        <p>
-            Desarrollo de una página web como ejercicio académico,
-            aplicando estructura HTML, diseño visual y organización
-            de contenidos.
-        </p>
-        <p><strong>Tecnologías:</strong> HTML, CSS y GitHub</p>
-    </div>
-</section>
-
-
-
