@@ -1,17 +1,46 @@
 body {
-    background-color: rgb(158, 152, 152);
+    background-color: rgb(223, 223, 223);
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-h1 {
- color: #444;
+h1 { /*ETIQUETA*/
+ color: #000000;
  font-size: 40px;
 }
 
-.seccion {
+h2{
+    color: rgb(0, 38, 255);
+    font-size: 28px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    line-height: 1.6 
+}
+
+.seccion { /*CLASE (.)*/
     background-color: white;
 }
-#perfil {
-    background-color: lightblue
+#perfil { /*ID (#)*/
+    background-color: rgb(117, 117, 117)
+}
+/*=======================
+ENCABEZADO
+=======================*/
+header {
+    background-color: rgb(167, 166, 166);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+header h1{
+    color: rgb(0, 0,0);
+}
+
+header h2{
+    color: rgb(0, 0, 0);
 }
